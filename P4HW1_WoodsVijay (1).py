@@ -21,29 +21,19 @@ for grade in grade_list:
     print(grade)
 
 
-'''
-# Create empty list
-modules=[]
-# Add values to list
-modules.append(module1)
-modules.append(module2)
-modules.append(module3)
-modules.append(module4)
-modules.append(module5)
-modules.append(module6)
 
 
-print(modules)
-# Calculation
+print(grade_list)
 
-max_value = max(modules)
-min_value = min(modules)
 
-sum_value=sum(modules)
-average=sum_value/len(modules)
+max_value = max(grade_list)
+min_value = min(grade_list)
+
+sum_value=sum(grade_list)
+average=sum_value/len(grade_list)
 print("Max: ", max_value)
 print("Min:", min_value)
 print("Sum:",sum_value)
 print("Average:",average)
 
-'''
+
